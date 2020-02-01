@@ -1,0 +1,24 @@
+{
+    "resource": "teamdetails",
+    "parameters": {
+      "TeamID": 1610612745
+    },
+    "resultSets": [
+      {
+        "name": "TeamBackground",
+        "headers": [
+          "TEAM_ID",
+          "ABBREVIATION",
+          "NICKNAME",
+          "YEARFOUNDED",
+          "CITY",
+          "ARENA",
+          "ARENACAPACITY",
+          "OWNER",
+          "GENERALMANAGER",
+          "HEADCOACH",
+          "DLEAGUEAFFILIATION" ]
+        }
+    ]
+}
+    

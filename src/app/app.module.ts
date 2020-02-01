@@ -1,9 +1,9 @@
+import { NbaApiService } from './nba-api.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
 @NgModule({
   declarations: [
     AppComponent
@@ -12,7 +12,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [NbaApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
